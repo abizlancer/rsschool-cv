@@ -47,3 +47,7 @@ function add(num1, num2) {
 ## Experience:
 I have a little experience as a Front-end developer. I worked in digital marketing compony [Digital360 Agency](https://digital360.uz/). My main task was to convert Figma templates into code using webpack pug scss and js and ext. Now I work as a Freelancer. By the link bellow you can visit my site and see my projects !
 [abizlancer](http://abizlancer.42web.io/)
+====
+## Courses:
+* PROWEB Web development
+* Udemy Vue js 3 course
