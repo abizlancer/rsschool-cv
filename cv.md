@@ -1,17 +1,18 @@
 # Abdulaziz Pulatov
-====
 ### Front-end developer
-====
+---
 ## Contact info:
-**Telegram:** @abiz03
-**Phone:** +998 90 903 11 23
-**Email:** abizlancer@gmail.com
-**Discord:** Abiz
-====
+
+**Telegram:** @abiz03<br>
+**Phone:** +998 90 903 11 23<br>
+**E-mail:** abizlancer@gmail.com<br>
+**Discord:** Abiz<br>
+
 ## About me:
+
 I'm a Front-end developer. By this course I want to become a EPAM Software Engineer but my main goal in a year to become a Senior developer.
-====
-## My skilss:
+
+## My skills:
 * Figma
 * Git, Github
 * Html (preprocessor PUG)
@@ -22,9 +23,8 @@ I'm a Front-end developer. By this course I want to become a EPAM Software Engin
     + React (basic)
     + GSAP (GreenSock)
 * Php, MySql (basic)
-=====
 ## Code example:
-16+18=214 For this kata you will have to forget how to add two numbers. In simple terms, our method does not like the principle of carrying over numbers and just writes down every number it calculates
+16+18=214. For this kata you will have to forget how to add two numbers. In simple terms, our method does not like the principle of carrying over numbers and just writes down every number it calculates
 ```javascript
 function add(num1, num2) {
   num1 = num1.toString().split('').reverse()
@@ -43,11 +43,12 @@ function add(num1, num2) {
   return +result.reverse().join('')
 }
 ```
-====
 ## Experience:
 I have a little experience as a Front-end developer. I worked in digital marketing compony [Digital360 Agency](https://digital360.uz/). My main task was to convert Figma templates into code using webpack pug scss and js and ext. Now I work as a Freelancer. By the link bellow you can visit my site and see my projects !
 [abizlancer](http://abizlancer.42web.io/)
-====
 ## Courses:
 * PROWEB Web development
 * Udemy Vue js 3 course
+
+## English: 
+A2
