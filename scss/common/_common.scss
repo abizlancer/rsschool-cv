@@ -13,11 +13,15 @@
   --white: #fff;
   --text: #002B5B;
   --gradient: radial-gradient( circle farthest-corner at 10% 20%,  rgba(90,92,106,1) 0%, rgba(32,45,58,1) 81.3% );
+  --soft-gradient: radial-gradient( circle farthest-corner at 1.3% 2.8%,  rgba(239,249,249,1) 0%, rgba(182,199,226,1) 100.2% );
+  --neon: #77D970;
 }
 $black: var(--black);
 $white: var(--white);
 $text: var(--text);
+$neon: var(--neon);
 $gradient: var(--gradient);
+$soft: var(--soft-gradient);
 .icon {
   &-telegram {content: ''; font-weight: 400;}
   &-phone {content: ''; font-weight: 400;}
@@ -27,6 +31,12 @@ $gradient: var(--gradient);
   max-width: 1320px;
   width: 90%;
   margin: 0 auto;
+}
+.title {
+  font-size: 35px;
+  line-height: 40px;
+  color: $text;
+  text-align: center;
 }
 
 
