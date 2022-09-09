@@ -1,0 +1,20 @@
+.footer {
+  padding: 100px 0;
+  background: $gradient;
+  .title {
+    @include fonts(60px, null, $white, 700);
+    margin-bottom: 45px;
+  }
+  &__content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    a {
+      @include fonts(35px, 40px, $white, 700);
+      &::before {
+        margin-right: 15px;
+      }
+    }
+  }
+}

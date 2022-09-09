@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
   font-weight: 400;
   font-family: 'roboto mono';
   &::before, &::after {
@@ -23,9 +24,9 @@ $neon: var(--neon);
 $gradient: var(--gradient);
 $soft: var(--soft-gradient);
 .icon {
-  &-telegram {content: ''; font-weight: 400;}
-  &-phone {content: ''; font-weight: 400;}
-  &-email {content: ''; font-weight: 400;}
+  &-telegram::before {content: '\f2c6'; font-weight: 400;}
+  &-phone::before {content: '\f095'; font-weight: 400;}
+  &-email::before {content: '\f0e0'; font-weight: 400;}
 }
 .container {
   max-width: 1320px;
