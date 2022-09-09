@@ -7,17 +7,17 @@
 @mixin fontFace($ff, $fUrl, $name, $ext, $format, $weight ) {
   @font-face {
     font-family: $ff;
-    src: url('../../fonts/#{$fUrl}/#{$name}.#{$ext}') format($format);
+    src: url('../fonts/#{$fUrl}-#{$name}.#{$ext}') format($format);
     font-weight: $weight;
   }
 }
-$robotoMono: ('Regilar', 400), ('Medium', 500), ('Bold', 700);
+$robotoMono: ('Regular', 400), ('Medium', 500), ('Bold', 700);
 $icons: ('regular-400', 400), ('brands-400', 400);
 
 @each $name, $weight in $robotoMono {
-  @include fontFace('roboto mono', 'robotoMono/RobotoMono-', $name, 'ttf', 'truetype', $weight)
+  @include fontFace('roboto mono', 'robotoMono/RobotoMono', $name, 'ttf', 'truetype', $weight)
 }
 @each $name, $weight in $icons {
-  @include fontFace('icons', 'icons/fa-', $name, 'ttf', 'truetype', $weight)
+  @include fontFace('icons', 'icons/fa', $name, 'ttf', 'truetype', $weight)
 }
 
