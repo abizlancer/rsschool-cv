@@ -1,0 +1,15 @@
+.header {
+  height: 400px;
+  background: $white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &--title {
+    @include fonts(50px, 65px, $text, 700);
+    margin-bottom: 15px;
+  }
+  p {
+    @include fonts(25px, 30px, $text, 500)
+  }
+}
