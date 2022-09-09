@@ -1,0 +1,17 @@
+.skills  {
+  padding: 50px 0;
+  &__content {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 15px;
+  }
+  &--item {
+    grid-column: span 1;
+    background: $soft;
+    border: 2px solid $black;
+    border-radius: 8px;
+    padding: 15px;
+    @include fonts(19px, 25px, $text, 500)
+  }
+}
